@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>  
+    //chapter 5
+
+
+
+
+
+
+       // Q:1
+       
+       var f1 =3
+       var f2 =5
+       var f3 =f1+f2
+       document.write(f3 +"<br>");
+      
+       // Q:2
+       var f1 =3
+       var f2 =5
+       var f3 =f1-f2
+       document.write(f3 +"<br>");
+
+       var f1 =3
+       var f2 =5
+       var f3 =f1*f2
+       document.write(f3 +"<br>");
+
+       var f1 =3
+       var f2 =5
+       var f3 =f1/f2
+       document.write(f3 +"<br>");
+
+       var f1 =3
+       var f2 =5
+       var f3 =f1%f2
+       document.write(f3 +"<br>");
+
+       // Q:3
+       
+       var h1;
+    document.write("Value after variable declaration is:" + h1 + "<br>");
+       h1 = "5";
+     document.write("initial value:" + h1 + "<br>");
+        h1++;
+        document.write("value after increamet is: " + h1 + "<br>");
+       h1 += 7;
+       document.write("valve after addition is: " + h1 + "<br>");
+       h1--;
+       document.write("Value after decrement is: " + h1 + "<br>");
+        var remainder = h1 % 3;
+       document.write("the remainder is: " + remainder + "<br>");
+
+
+           //Q:4
+         
+  var ticketPrice = 600;
+
+  var numberOfTickets = 5;
+
+  var totalCost = ticketPrice * numberOfTickets;
+
+  document.write("The cost to buy " + numberOfTickets + " tickets to a movie is " + totalCost + " PKR." +"<br>");
+//Q:5
+var table =prompt();
+document.write("tabe of"+ table+"<br>");
+
+document.write(table+"*1=" + table*1 +"<br>");
+document.write(table+"*2=" + table*2 +"<br>");
+document.write(table+"*3=" + table*3 +"<br>");
+document.write(table+"*4=" + table*4 +"<br>");
+document.write(table+"*5=" + table*5 +"<br>");
+document.write(table+"*6=" + table*6 +"<br>");
+document.write(table+"*7=" + table*7 +"<br>");
+document.write(table+"*8=" + table*8 +"<br>");
+document.write(table+"*9=" + table*9 +"<br>");
+document.write(table+"*10=" + table*10 +"<br>");
+   //Q:6
+   
+ 
+   var celsiusTemperature = 25;
+
+
+var fahrenheitTemperature = (celsiusTemperature -32) * 5/9;
+
+
+document.write(celsiusTemperature + "°C is " + fahrenheitTemperature + "°F<br>");
+
+
+var fahrenheitTemperature2 = 70;
+
+
+var celsiusTemperature2 = (fahrenheitTemperature * 9/5 ) + 32;
+
+
+document.write(fahrenheitTemperature2 + "°F is " + celsiusTemperature2 + "°C");
+
+   //Q:7.
+
+var item1Price = 650;
+
+
+var item2Price = 100;
+
+
+var item1Quantity = 3;
+
+var item2Quantity = 7;
+
+
+var shippingCharges = 100;
+
+
+var totalItem1Cost = item1Price * item1Quantity;
+
+
+var totalItem2Cost = item2Price * item2Quantity;
+
+var subtotal = totalItem1Cost + totalItem2Cost;
+
+
+var totalCost = subtotal + shippingCharges;
+
+
+document.write("<h2>Receipt</h2>");
+document.write("<p>Price of item 1 is:" + item1Price + "</p>");
+document.write("<p>Quantity of item 1 is: " + item1Quantity + "</p>");
+document.write("<p>Price of item 2 is:" + item2Price + "</p>");
+document.write("<p>Quantity of item 2 is: " + item2Quantity + "</p>");
+document.write("<p>shippping charges :" + shippingCharges +"</p>");
+document.write("<p><strong>Total cost of your order is " + totalCost + "</strong></p>");
+
+   //Q:8.
+var totalMarks = 500;
+
+
+var marksObtained = 420;
+
+
+var percentage = (marksObtained / totalMarks) * 100;
+
+
+document.write("<h2>Percentage Calculator</h2>");
+document.write("<p>Total Marks: " + totalMarks + "</p>");
+document.write("<p>Marks Obtained: " + marksObtained + "</p>");
+document.write("<p>Percentage: " + percentage + "%</p>");
+
+
+     // Q:9. 
+       //Amount in US dollars
+ var usDollars = 10;
+
+//Amount in Saudi Riyals
+var saudiRiyals = 25;
+
+//Exchange rates
+var exchangeRateUSD = 104.80;
+var exchangeRateSAR = 28;
+
+// Convert US dollars to Pakistani Rupees
+var usDollarsInPKR = usDollars * exchangeRateUSD;
+
+// Convert Saudi Riyals to Pakistani Rupees
+var saudiRiyalsInPKR = saudiRiyals * exchangeRateSAR;
+
+// Calculate total amount in Pakistani Rupees
+var totalInPKR = usDollarsInPKR + saudiRiyalsInPKR;
+
+document.write("<h2>Currency in PKR</h2>");
+document.write("<p>Total amount in Pakistani Rupees: " + totalInPKR + " PKR</p>");
+
+      //Q:10.
+      
+var number = 10;
+
+var result = ((number + 5) * 10) / 2;
+
+document.write("<h2>Arithmetic Operations</h2>");
+document.write("<p>Result:" + result + "</p>"); 
+
+
+//Q:11.
+ var currentYear = 2024;
+
+// Store their birth year in a variable
+var birthYear = 2007; 
+
+// Calculate their possible ages
+var age1 = currentYear - birthYear;
+var age2 = age1 - 1;
+
+// Display the ages
+document.write("<h2>Age Calculator</h2>");
+document.write("current year" + currentYear +"<br>");
+document.write("birthYear" + birthYear +"<br>");
+document.write("They are either " + age1 + " or " + age2 + " years old.");
+//Q:13.
+var snack = "chocolatechip";
+var currentage = 15;
+var maxage = 65;
+var estimatedamountperday = 3;
+// Calculate how many snacks you would eat total for the rest of your lif
+
+ var yearsremaining = maxage - currentage;
+ var daysremaining = yearsremaining * 365;
+ var totalsnacksneeded = daysremaining * estimatedamountperday;
+document.write("You will need" + totalsnacksneeded + "to last you until the ripe old age of"+ maxage);
+</script>
+</body>
+</html>
